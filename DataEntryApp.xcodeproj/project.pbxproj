@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5649259C1BDF7C9300BA6E6C /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564925951BDF7C9300BA6E6C /* MenuView.m */; };
+		5649259D1BDF7C9300BA6E6C /* OrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564925971BDF7C9300BA6E6C /* OrderView.m */; };
+		5649259E1BDF7C9300BA6E6C /* ReceiptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 564925991BDF7C9300BA6E6C /* ReceiptView.m */; };
+		5649259F1BDF7C9300BA6E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5649259B1BDF7C9300BA6E6C /* ViewController.m */; };
+		564925A51BDF7CBB00BA6E6C /* MenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 564925A21BDF7CBB00BA6E6C /* MenuObject.m */; };
+		564925A61BDF7CBB00BA6E6C /* MenuOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 564925A41BDF7CBB00BA6E6C /* MenuOrder.m */; };
+		564925AA1BDF7CD100BA6E6C /* MenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 564925A91BDF7CD100BA6E6C /* MenuItemCell.m */; };
+		56611D2E1BD5F2B20041A273 /* entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56611D2D1BD5F2B20041A273 /* entitlements.plist */; };
+		56D8D9BE1BC8C64800DBE13C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8D9BD1BC8C64800DBE13C /* libc++.dylib */; };
+		56D8D9D21BC8DBD700DBE13C /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9CB1BC8DBD700DBE13C /* burger.png */; };
+		56D8D9D31BC8DBD700DBE13C /* chips.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9CC1BC8DBD700DBE13C /* chips.png */; };
+		56D8D9D41BC8DBD700DBE13C /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9CD1BC8DBD700DBE13C /* coffee.png */; };
+		56D8D9D51BC8DBD700DBE13C /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9CE1BC8DBD700DBE13C /* fish.png */; };
+		56D8D9D61BC8DBD700DBE13C /* fishnchips.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9CF1BC8DBD700DBE13C /* fishnchips.png */; };
+		56D8D9D71BC8DBD700DBE13C /* juice.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9D01BC8DBD700DBE13C /* juice.png */; };
+		56D8D9D81BC8DBD700DBE13C /* tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8D9D11BC8DBD700DBE13C /* tea.png */; };
+		56EF40F51BC2802500DBA3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EF40F41BC2802500DBA3D2 /* main.m */; };
+		56EF40F81BC2802500DBA3D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EF40F71BC2802500DBA3D2 /* AppDelegate.m */; };
+		56EF40FB1BC2802500DBA3D2 /* DataEntryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56EF40F91BC2802500DBA3D2 /* DataEntryApp.xcdatamodeld */; };
+		56EF41011BC2802500DBA3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EF40FF1BC2802500DBA3D2 /* Main.storyboard */; };
+		56EF41031BC2802500DBA3D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EF41021BC2802500DBA3D2 /* Images.xcassets */; };
+		56EF41061BC2802500DBA3D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56EF41041BC2802500DBA3D2 /* LaunchScreen.xib */; };
+		56EF41221BC4F76900DBA3D2 /* qrcodemaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EF41211BC4F76900DBA3D2 /* qrcodemaker.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		564925941BDF7C9300BA6E6C /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		564925951BDF7C9300BA6E6C /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		564925961BDF7C9300BA6E6C /* OrderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderView.h; sourceTree = "<group>"; };
+		564925971BDF7C9300BA6E6C /* OrderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderView.m; sourceTree = "<group>"; };
+		564925981BDF7C9300BA6E6C /* ReceiptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptView.h; sourceTree = "<group>"; };
+		564925991BDF7C9300BA6E6C /* ReceiptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptView.m; sourceTree = "<group>"; };
+		5649259A1BDF7C9300BA6E6C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5649259B1BDF7C9300BA6E6C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		564925A11BDF7CBB00BA6E6C /* MenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuObject.h; sourceTree = "<group>"; };
+		564925A21BDF7CBB00BA6E6C /* MenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuObject.m; sourceTree = "<group>"; };
+		564925A31BDF7CBB00BA6E6C /* MenuOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuOrder.h; sourceTree = "<group>"; };
+		564925A41BDF7CBB00BA6E6C /* MenuOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuOrder.m; sourceTree = "<group>"; };
+		564925A81BDF7CD100BA6E6C /* MenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemCell.h; sourceTree = "<group>"; };
+		564925A91BDF7CD100BA6E6C /* MenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemCell.m; sourceTree = "<group>"; };
+		56611D2D1BD5F2B20041A273 /* entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entitlements.plist; sourceTree = "<group>"; };
+		56D8D9B91BC8C3B000DBE13C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		56D8D9BA1BC8C3B000DBE13C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		56D8D9BB1BC8C3B000DBE13C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		56D8D9BD1BC8C64800DBE13C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		56D8D9CB1BC8DBD700DBE13C /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		56D8D9CC1BC8DBD700DBE13C /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chips.png; sourceTree = "<group>"; };
+		56D8D9CD1BC8DBD700DBE13C /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		56D8D9CE1BC8DBD700DBE13C /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		56D8D9CF1BC8DBD700DBE13C /* fishnchips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fishnchips.png; sourceTree = "<group>"; };
+		56D8D9D01BC8DBD700DBE13C /* juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice.png; sourceTree = "<group>"; };
+		56D8D9D11BC8DBD700DBE13C /* tea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tea.png; sourceTree = "<group>"; };
+		56EF40EF1BC2802400DBA3D2 /* QRCodeMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EF40F31BC2802500DBA3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EF40F41BC2802500DBA3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56EF40F61BC2802500DBA3D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56EF40F71BC2802500DBA3D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56EF40FA1BC2802500DBA3D2 /* DataEntryApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataEntryApp.xcdatamodel; sourceTree = "<group>"; };
+		56EF41001BC2802500DBA3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56EF41021BC2802500DBA3D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56EF41051BC2802500DBA3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		56EF41101BC2802500DBA3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EF41111BC2802500DBA3D2 /* DataEntryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataEntryAppTests.m; sourceTree = "<group>"; };
+		56EF41211BC4F76900DBA3D2 /* qrcodemaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcodemaker.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56EF40EC1BC2802400DBA3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8D9BE1BC8C64800DBE13C /* libc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564925931BDF7C9300BA6E6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				564925A71BDF7CD100BA6E6C /* Cells */,
+				564925941BDF7C9300BA6E6C /* MenuView.h */,
+				564925951BDF7C9300BA6E6C /* MenuView.m */,
+				564925961BDF7C9300BA6E6C /* OrderView.h */,
+				564925971BDF7C9300BA6E6C /* OrderView.m */,
+				564925981BDF7C9300BA6E6C /* ReceiptView.h */,
+				564925991BDF7C9300BA6E6C /* ReceiptView.m */,
+				5649259A1BDF7C9300BA6E6C /* ViewController.h */,
+				5649259B1BDF7C9300BA6E6C /* ViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		564925A01BDF7CBB00BA6E6C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				564925A11BDF7CBB00BA6E6C /* MenuObject.h */,
+				564925A21BDF7CBB00BA6E6C /* MenuObject.m */,
+				564925A31BDF7CBB00BA6E6C /* MenuOrder.h */,
+				564925A41BDF7CBB00BA6E6C /* MenuOrder.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		564925A71BDF7CD100BA6E6C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				564925A81BDF7CD100BA6E6C /* MenuItemCell.h */,
+				564925A91BDF7CD100BA6E6C /* MenuItemCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		56D8D9B71BC8C3B000DBE13C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				56D8D9B81BC8C3B000DBE13C /* weChat */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		56D8D9B81BC8C3B000DBE13C /* weChat */ = {
+			isa = PBXGroup;
+			children = (
+				56D8D9B91BC8C3B000DBE13C /* libWeChatSDK.a */,
+				56D8D9BA1BC8C3B000DBE13C /* WXApi.h */,
+				56D8D9BB1BC8C3B000DBE13C /* WXApiObject.h */,
+			);
+			path = weChat;
+			sourceTree = "<group>";
+		};
+		56EF40E61BC2802400DBA3D2 = {
+			isa = PBXGroup;
+			children = (
+				56D8D9BD1BC8C64800DBE13C /* libc++.dylib */,
+				56EF40F11BC2802400DBA3D2 /* DataEntryApp */,
+				56EF410E1BC2802500DBA3D2 /* DataEntryAppTests */,
+				56EF40F01BC2802400DBA3D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56EF40F01BC2802400DBA3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56EF40EF1BC2802400DBA3D2 /* QRCodeMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56EF40F11BC2802400DBA3D2 /* DataEntryApp */ = {
+			isa = PBXGroup;
+			children = (
+				564925A01BDF7CBB00BA6E6C /* Objects */,
+				564925931BDF7C9300BA6E6C /* Views */,
+				56EF40F61BC2802500DBA3D2 /* AppDelegate.h */,
+				56EF40F71BC2802500DBA3D2 /* AppDelegate.m */,
+				56EF40F21BC2802400DBA3D2 /* Supporting Files */,
+			);
+			path = DataEntryApp;
+			sourceTree = "<group>";
+		};
+		56EF40F21BC2802400DBA3D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56EF40FF1BC2802500DBA3D2 /* Main.storyboard */,
+				56EF41021BC2802500DBA3D2 /* Images.xcassets */,
+				56EF41041BC2802500DBA3D2 /* LaunchScreen.xib */,
+				56EF40F91BC2802500DBA3D2 /* DataEntryApp.xcdatamodeld */,
+				56D8D9B71BC8C3B000DBE13C /* Libs */,
+				56EF41201BC4F76900DBA3D2 /* Resources */,
+				56EF40F31BC2802500DBA3D2 /* Info.plist */,
+				56611D2D1BD5F2B20041A273 /* entitlements.plist */,
+				56EF40F41BC2802500DBA3D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56EF410E1BC2802500DBA3D2 /* DataEntryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56EF41111BC2802500DBA3D2 /* DataEntryAppTests.m */,
+				56EF410F1BC2802500DBA3D2 /* Supporting Files */,
+			);
+			path = DataEntryAppTests;
+			sourceTree = "<group>";
+		};
+		56EF410F1BC2802500DBA3D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56EF41101BC2802500DBA3D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56EF41201BC4F76900DBA3D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56D8D9CB1BC8DBD700DBE13C /* burger.png */,
+				56D8D9CC1BC8DBD700DBE13C /* chips.png */,
+				56D8D9CD1BC8DBD700DBE13C /* coffee.png */,
+				56D8D9CE1BC8DBD700DBE13C /* fish.png */,
+				56D8D9CF1BC8DBD700DBE13C /* fishnchips.png */,
+				56D8D9D01BC8DBD700DBE13C /* juice.png */,
+				56D8D9D11BC8DBD700DBE13C /* tea.png */,
+				56EF41211BC4F76900DBA3D2 /* qrcodemaker.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56EF40EE1BC2802400DBA3D2 /* DataEntryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EF41151BC2802500DBA3D2 /* Build configuration list for PBXNativeTarget "DataEntryApp" */;
+			buildPhases = (
+				56EF40EB1BC2802400DBA3D2 /* Sources */,
+				56EF40EC1BC2802400DBA3D2 /* Frameworks */,
+				56EF40ED1BC2802400DBA3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataEntryApp;
+			productName = DataEntryApp;
+			productReference = 56EF40EF1BC2802400DBA3D2 /* QRCodeMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56EF40E71BC2802400DBA3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CreativeBugs;
+				TargetAttributes = {
+					56EF40EE1BC2802400DBA3D2 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 669L63BR68;
+					};
+				};
+			};
+			buildConfigurationList = 56EF40EA1BC2802400DBA3D2 /* Build configuration list for PBXProject "DataEntryApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56EF40E61BC2802400DBA3D2;
+			productRefGroup = 56EF40F01BC2802400DBA3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56EF40EE1BC2802400DBA3D2 /* DataEntryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56EF40ED1BC2802400DBA3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56611D2E1BD5F2B20041A273 /* entitlements.plist in Resources */,
+				56D8D9D81BC8DBD700DBE13C /* tea.png in Resources */,
+				56D8D9D41BC8DBD700DBE13C /* coffee.png in Resources */,
+				56EF41221BC4F76900DBA3D2 /* qrcodemaker.png in Resources */,
+				56D8D9D21BC8DBD700DBE13C /* burger.png in Resources */,
+				56D8D9D61BC8DBD700DBE13C /* fishnchips.png in Resources */,
+				56EF41011BC2802500DBA3D2 /* Main.storyboard in Resources */,
+				56D8D9D31BC8DBD700DBE13C /* chips.png in Resources */,
+				56D8D9D71BC8DBD700DBE13C /* juice.png in Resources */,
+				56D8D9D51BC8DBD700DBE13C /* fish.png in Resources */,
+				56EF41061BC2802500DBA3D2 /* LaunchScreen.xib in Resources */,
+				56EF41031BC2802500DBA3D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56EF40EB1BC2802400DBA3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5649259E1BDF7C9300BA6E6C /* ReceiptView.m in Sources */,
+				56EF40F81BC2802500DBA3D2 /* AppDelegate.m in Sources */,
+				56EF40FB1BC2802500DBA3D2 /* DataEntryApp.xcdatamodeld in Sources */,
+				564925A61BDF7CBB00BA6E6C /* MenuOrder.m in Sources */,
+				56EF40F51BC2802500DBA3D2 /* main.m in Sources */,
+				5649259F1BDF7C9300BA6E6C /* ViewController.m in Sources */,
+				5649259D1BDF7C9300BA6E6C /* OrderView.m in Sources */,
+				5649259C1BDF7C9300BA6E6C /* MenuView.m in Sources */,
+				564925A51BDF7CBB00BA6E6C /* MenuObject.m in Sources */,
+				564925AA1BDF7CD100BA6E6C /* MenuItemCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56EF40FF1BC2802500DBA3D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EF41001BC2802500DBA3D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56EF41041BC2802500DBA3D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EF41051BC2802500DBA3D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56EF41131BC2802500DBA3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ahmad Iftikhar (6RJ3CGLS6Y)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "e8e001a2-46ee-48ff-ae1c-523105c7654c";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56EF41141BC2802500DBA3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ahmad Iftikhar (669L63BR68)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e8e001a2-46ee-48ff-ae1c-523105c7654c";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56EF41161BC2802500DBA3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ./DataEntryApp/entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DataEntryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DataEntryApp/Libs/weChat",
+				);
+				PRODUCT_NAME = QRCodeMaker;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		56EF41171BC2802500DBA3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ./DataEntryApp/entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DataEntryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DataEntryApp/Libs/weChat",
+				);
+				PRODUCT_NAME = QRCodeMaker;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56EF40EA1BC2802400DBA3D2 /* Build configuration list for PBXProject "DataEntryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EF41131BC2802500DBA3D2 /* Debug */,
+				56EF41141BC2802500DBA3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EF41151BC2802500DBA3D2 /* Build configuration list for PBXNativeTarget "DataEntryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EF41161BC2802500DBA3D2 /* Debug */,
+				56EF41171BC2802500DBA3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56EF40F91BC2802500DBA3D2 /* DataEntryApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56EF40FA1BC2802500DBA3D2 /* DataEntryApp.xcdatamodel */,
+			);
+			currentVersion = 56EF40FA1BC2802500DBA3D2 /* DataEntryApp.xcdatamodel */;
+			path = DataEntryApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56EF40E71BC2802400DBA3D2 /* Project object */;
+}
